@@ -116,19 +116,31 @@
  * ==========================================
  */
 const BASE_URL = "https://raw.githubusercontent.com/javalover123/engame/refs/heads/main"; // 替换为真实远程目录地址
-
+const prefixUrl = [
+    "https://ghproxy.net/",
+    "https://gh.xmly.dev/",
+    "https://gh.jasonzeng.dev/",
+    "https://proxy.v2gh.com/",
+    "https://git.yylx.win/",
+    ""
+];
 async function fetchData(type, path = "") {
     // 真实使用时，解开这里的注释，删除下方的模拟 Promise
     /*
     */
-    try {
-        const res = await fetch(`${BASE_URL}/${path}/meta.json`);
-        return await res.json();
-    } catch(e) {
-        console.error("获取数据失败", e);
-        return [];
+    const fileName = type === 'words' ? 'words.json' : 'meta.json';
+    for (let i = 0; i < prefixUrl.length; i++) {
+        try {
+            const res = await fetch(`${prefixUrl[i]}${BASE_URL}/${path}/${fileName}`, { signal: AbortSignal.timeout(10000) });
+            return await res.json();
+        } catch(e) {
+            console.error("获取数据失败", e);
+            if (i === prefixUrl.length - 1) {
+                alert("获取数据失败");
+                return [];
+            }
+        }
     }
-
     // ----- 以下为模拟数据 -----
     return new Promise(resolve => {
         setTimeout(() => {
