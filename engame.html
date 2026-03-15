@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>英语单词打字游戏</title>
+    <style>
+        :root { --primary: #1890ff; --success: #52c41a; --error: #f5222d; --bg: #f0f2f5; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .hidden { display: none !important; }
+        
+        /* 顶部设置栏 */
+        .settings-bar { display: flex; gap: 15px; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee; align-items: center; flex-wrap: wrap;}
+        .settings-bar select, .settings-bar input[type="range"] { padding: 5px; }
+        
+        /* 选单界面 */
+        .menu-section { margin-bottom: 25px; }
+        .item-list { display: flex; flex-wrap: wrap; gap: 15px; }
+        .card { padding: 15px; border: 1px solid #e8e8e8; border-radius: 8px; cursor: pointer; transition: 0.3s; min-width: 150px; text-align: center; background: #fafafa;}
+        .card:hover { background: #e6f7ff; border-color: var(--primary); transform: translateY(-2px); }
+        .card img { max-width: 100%; height: 100px; object-fit: contain; margin-bottom: 10px; border-radius: 4px; }
+        
+        /* 游戏界面 */
+        .stats-bar { display: flex; justify-content: space-between; background: #282c34; color: #fff; padding: 15px 25px; border-radius: 8px; margin-bottom: 20px; font-weight: bold; font-size: 1.1em;}
+        .game-area { text-align: center; padding: 40px 20px; min-height: 250px; position: relative; background: #fafafa; border-radius: 8px; border: 2px dashed #ccc;}
+        .word-meaning { font-size: 1.2em; color: #666; margin-bottom: 10px; min-height: 1.5em; }
+        .word-phonetic { font-size: 1em; color: #888; margin-bottom: 15px; font-family: 'Lucida Sans', sans-serif;}
+        .word-display { font-size: 3.5em; letter-spacing: 2px; margin-bottom: 20px; font-family: 'Courier New', Courier, monospace; word-wrap: break-word;}
+        
+        /* 字符高亮逻辑 */
+        .char.correct { color: var(--success); }
+        .char.error { color: var(--error); background: #fff1f0; border-radius: 2px; text-decoration: underline;}
+        .char.pending { color: #bfbfbf; }
+        
+        .controls { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; }
+        .input-hidden { position: absolute; opacity: 0; top:0; left:0; width: 100%; height: 100%; cursor: default; }
+        
+        #pause-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.9); display: flex; flex-direction: column; justify-content: center; align-items: center; font-size: 2.5em; color: var(--error); z-index: 10; font-weight: bold; border-radius: 8px;}
+        .btn { padding: 8px 16px; background: var(--primary); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;}
+        .btn-danger { background: var(--error); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="settings-bar">
+        <label>发音: 
+            <select id="setting-voice">
+                <option value="en-US">美音 (US)</option>
+                <option value="en-GB">英音 (UK)</option>
+            </select>
+        </label>
+        <label>显示释义: 
+            <select id="setting-meaning">
+                <option value="yes">是</option>
+                <option value="no">否</option>
+            </select>
+        </label>
+        <label>速度(1-10): <span id="speed-val">5</span>
+            <input type="range" id="setting-speed" min="1" max="10" value="5">
+        </label>
+        <div style="flex-grow: 1; text-align: right;">
+            <button class="btn" onclick="exportData()">导出进度 JSON</button>
+        </div>
+    </div>
+
+    <div id="menu-view">
+        <div class="menu-section" id="stage-section">
+            <h3>1. 选择学习阶段</h3>
+            <div class="item-list" id="stage-list">加载中...</div>
+        </div>
+        <div class="menu-section hidden" id="book-section">
+            <h3>2. 选择教材版本</h3>
+            <div class="item-list" id="book-list"></div>
+        </div>
+        <div class="menu-section hidden" id="grade-section">
+            <h3>3. 选择年级课程</h3>
+            <div class="item-list" id="grade-list"></div>
+        </div>
+    </div>
+
+    <div id="game-view" class="hidden">
+        <div class="stats-bar">
+            <span>耗时: <span id="stat-time">00:00</span> / 10:00</span>
+            <span>WPM: <span id="stat-wpm">0</span></span>
+            <span>准确率: <span id="stat-acc">100%</span></span>
+            <span>得分: <span id="stat-score">0</span></span>
+        </div>
+        
+        <div class="game-area">
+            <div id="pause-overlay" class="hidden">
+                游戏暂停
+                <div style="font-size: 0.4em; color:#666; margin-top:10px;">按 Pause Break 键继续</div>
+            </div>
+            
+            <div class="word-meaning" id="ui-meaning"></div>
+            <div class="word-phonetic" id="ui-phonetic"></div>
+            <div class="word-display" id="ui-word"></div>
+            
+            <input type="text" id="hidden-input" class="input-hidden" autocomplete="off" spellcheck="false">
+            <p style="color: #888; font-size: 0.9em; margin-top:30px;">
+                💡 直接键盘打字。按 <strong>Pause Break</strong> 暂停。<br>
+                系统将依次让您练习单词及其例句。
+            </p>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-danger" onclick="endGame()">结束并保存本局</button>
+        </div>
+    </div>
+</div>
+
+<script>
+/** * ==========================================
+ * 1 & 2 & 3. 远程数据获取 (当前使用模拟数据，可替换为真实 Fetch)
+ * ==========================================
+ */
+const BASE_URL = "https://raw.githubusercontent.com/javalover123/engame/refs/heads/main"; // 替换为真实远程目录地址
+
+async function fetchData(type, path = "") {
+    // 真实使用时，解开这里的注释，删除下方的模拟 Promise
+    /*
+    */
+    try {
+        const res = await fetch(`${BASE_URL}/${path}/meta.json`);
+        return await res.json();
+    } catch(e) {
+        console.error("获取数据失败", e);
+        return [];
+    }
+
+    // ----- 以下为模拟数据 -----
+    return new Promise(resolve => {
+        setTimeout(() => {
+            if (type === 'stage') resolve([{"dir":"primary","name":"小学","no":10}, {"dir":"junior","name":"初中","no":20}]);
+            if (type === 'book') resolve([{"dir":"pep","name":"人教版","no":1}, {"dir":"gz","name":"广州教科版","no":2}]);
+            if (type === 'grade') resolve([
+                {"dir":"3-1","name":"广州教科版三年级上","cnt":147,"remark":"2024版","publishDate":"2024-01-01","cover": "https://via.placeholder.com/150x100?text=Cover","status":1},
+                {"dir":"3-2","name":"广州教科版三年级下","cnt":150,"remark":"2024版","cover": null,"status":1} // cover为null测试
+            ]);
+            if (type === 'words') resolve([
+                {"word":"dance","cn":["n. 舞蹈","v. 跳舞"],"en":"[dɑːns]","us":"[dæns]","sentences":["dance class","learn to dance","let's dance"],"unit":"1"},
+                {"word":"apple","cn":["n. 苹果"],"en":"['æpl]","us":"['æpl]","sentences":["an red apple","eat an apple"],"unit":"1"}
+            ]);
+        }, 300);
+    });
+}
+
+/** * ==========================================
+ * 9 & 10. IndexedDB 存储逻辑与导出
+ * ==========================================
+ */
+let db;
+const request = indexedDB.open("EnglishTypingDB", 1);
+request.onupgradeneeded = (e) => {
+    db = e.target.result;
+    if (!db.objectStoreNames.contains("game_stats")) {
+        db.createObjectStore("game_stats", { keyPath: "id", autoIncrement: true });
+    }
+    if (!db.objectStoreNames.contains("game_progress")) {
+        db.createObjectStore("game_progress", { keyPath: "id", autoIncrement: true });
+    }
+};
+request.onsuccess = (e) => { db = e.target.result; };
+
+function saveToDB(storeName, data) {
+    if (!db) return;
+    const tx = db.transaction(storeName, "readwrite");
+    tx.objectStore(storeName).add({ ...data, timestamp: new Date().toISOString() });
+}
+
+async function exportData() {
+    if (!db) return alert("数据库尚未初始化");
+    const tx = db.transaction(["game_stats", "game_progress"], "readonly");
+    const statsStore = tx.objectStore("game_stats");
+    const progressStore = tx.objectStore("game_progress");
+    
+    const stats = await new Promise(r => { const req = statsStore.getAll(); req.onsuccess = () => r(req.result); });
+    const progress = await new Promise(r => { const req = progressStore.getAll(); req.onsuccess = () => r(req.result); });
+    
+    const dataBlob = new Blob([JSON.stringify({stats, progress}, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(dataBlob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `typing_game_export_${new Date().getTime()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+}
+
+/** * ==========================================
+ * 8. 语音反馈逻辑 (Web Speech API)
+ * ==========================================
+ */
+let correctStreak = 0;
+let errorStreak = 0;
+const synth = window.speechSynthesis;
+
+function playVoice(text, lang) {
+    const utterThis = new SpeechSynthesisUtterance(text);
+    utterThis.lang = lang;
+    utterThis.rate = document.getElementById('setting-speed').value < 5 ? 0.8 : 1.0; // 简单绑定速度
+    synth.speak(utterThis);
+}
+
+function speakFeedback(isCorrect) {
+    // 规则 8: 如果已经在播放语音提示，本次就不提示了
+    if (synth.speaking) return; 
+
+    if (isCorrect) {
+        errorStreak = 0; correctStreak++;
+        let text = correctStreak === 1 ? "加油哦" : (correctStreak === 2 ? "不错哟" : "六六六");
+        if (correctStreak >= 3) correctStreak = 0;
+        playVoice(text, 'zh-CN');
+    } else {
+        correctStreak = 0; errorStreak++;
+        let text = errorStreak === 1 ? "加油" : (errorStreak === 2 ? "没关系，耐心点" : "Oh, no, 我会成功的");
+        if (errorStreak >= 3) errorStreak = 0;
+        playVoice(text, 'zh-CN');
+    }
+}
+
+/** * ==========================================
+ * UI 渲染: 阶段加载
+ * ==========================================
+ */
+async function initMenu() {
+    const stages = await fetchData('stage');
+    // 规则 1: 按 no 字段排序
+    stages.sort((a, b) => a.no - b.no);
+    document.getElementById('stage-list').innerHTML = stages.map(s => 
+        `<div class="card" onclick="loadBooks('${s.dir}')"><strong>${s.name}</strong></div>`
+    ).join('');
+}
+initMenu();
+
+async function loadBooks(stageDir) {
+    document.getElementById('book-section').classList.remove('hidden');
+    document.getElementById('grade-section').classList.add('hidden');
+    document.getElementById('book-list').innerHTML = '加载中...';
+    const books = await fetchData('book', stageDir);
+    books.sort((a, b) => a.no - b.no);
+    document.getElementById('book-list').innerHTML = books.map(b => 
+        `<div class="card" onclick="loadGrades('${stageDir}/${b.dir}')"><strong>${b.name}</strong></div>`
+    ).join('');
+}
+
+async function loadGrades(path) {
+    document.getElementById('grade-section').classList.remove('hidden');
+    document.getElementById('grade-list').innerHTML = '加载中...';
+    const grades = await fetchData('grade', path);
+    // 规则 2: 按数组顺序显示，封面为 null 或空不显示
+    document.getElementById('grade-list').innerHTML = grades.map(g => `
+        <div class="card" onclick="startGame('${path}/${g.dir}')">
+            ${g.cover ? `<img src="${g.cover}" alt="cover">` : ''}
+            <div style="font-size:1.1em; margin-bottom:5px;"><strong>${g.name}</strong></div>
+            <div style="font-size:0.85em; color:#666;">
+                ${g.remark || ''} <br>词汇量: ${g.cnt}
+            </div>
+        </div>
+    `).join('');
+}
+
+/** * ==========================================
+ * 游戏核心逻辑
+ * ==========================================
+ */
+let practiceQueue = []; // 存放当前需要练习的文本(单词或句子)
+let currentTask = null; // { text: "dance", meaning: "...", phonetic: "..." }
+let isPaused = false;
+let gameTimer, autoSaveTimer;
+let secondsElapsed = 0;
+
+// 统计
+let correctWordsCount = 0;
+let totalTypedChars = 0;
+let correctTypedChars = 0;
+
+// 设置项监听
+document.getElementById('setting-speed').addEventListener('input', e => document.getElementById('speed-val').innerText = e.target.value);
+document.getElementById('setting-meaning').addEventListener('change', updateMeaningVisibility);
+
+function updateMeaningVisibility() {
+    const show = document.getElementById('setting-meaning').value === 'yes';
+    document.getElementById('ui-meaning').style.visibility = show ? 'visible' : 'hidden';
+}
+
+async function startGame(path) {
+    const rawWords = await fetchData('words', path);
+    
+    // 规则 3: 将单词和句子压入队列
+    practiceQueue = [];
+    rawWords.forEach(item => {
+        // 先压入单词本身
+        practiceQueue.push({
+            type: 'word',
+            text: item.word,
+            cn: item.cn.join(' ; '),
+            en: item.en,
+            us: item.us
+        });
+        // 压入该单词的所有例句
+        if (item.sentences && item.sentences.length > 0) {
+            item.sentences.forEach(sentence => {
+                practiceQueue.push({
+                    type: 'sentence',
+                    text: sentence,
+                    cn: `[例句] 包含单词: ${item.word}`,
+                    en: '', us: ''
+                });
+            });
+        }
+    });
+
+    document.getElementById('menu-view').classList.add('hidden');
+    document.getElementById('game-view').classList.remove('hidden');
+    updateMeaningVisibility();
+    resetStats();
+    nextTask();
+
+    // 焦点锁定
+    const hInput = document.getElementById('hidden-input');
+    hInput.focus();
+    document.querySelector('.game-area').addEventListener('click', () => hInput.focus());
+
+    // 规则 9: 每局游戏最长10分钟 (600秒)
+    gameTimer = setInterval(() => {
+        if (isPaused) return;
+        secondsElapsed++;
+        updateStatsUI();
+        if (secondsElapsed >= 600) endGame(); 
+    }, 1000);
+
+    // 规则 10: 定时把游戏进度保存到 IndexedDB (每 60 秒)
+    autoSaveTimer = setInterval(() => {
+        if (!isPaused) saveToDB("game_progress", { secondsElapsed, remainingQueue: practiceQueue.length });
+    }, 60000);
+}
+
+function nextTask() {
+    if (practiceQueue.length === 0) {
+        alert("恭喜您，已完成所有练习！");
+        return endGame();
+    }
+    currentTask = practiceQueue.shift();
+    document.getElementById('hidden-input').value = "";
+    
+    // 渲染 UI
+    document.getElementById('ui-meaning').innerText = currentTask.cn;
+    
+    if (currentTask.type === 'word') {
+        const isUS = document.getElementById('setting-voice').value === 'en-US';
+        document.getElementById('ui-phonetic').innerText = isUS ? `US: ${currentTask.us}` : `UK: ${currentTask.en}`;
+    } else {
+        document.getElementById('ui-phonetic').innerText = ''; // 例句不显示音标
+    }
+
+    renderWordUI("");
+    
+    // 读出单词或句子
+    const lang = document.getElementById('setting-voice').value;
+    playVoice(currentTask.text, lang);
+}
+
+// 规则 6: 高亮输入错误的字符
+function renderWordUI(typed) {
+    const displayElement = document.getElementById('ui-word');
+    let html = "";
+    let isWrong = false;
+    const target = currentTask.text;
+
+    for (let i = 0; i < target.length; i++) {
+        if (i < typed.length) {
+            if (typed[i] === target[i]) {
+                html += `<span class="char correct">${target[i]}</span>`;
+            } else {
+                html += `<span class="char error">${target[i]}</span>`;
+                isWrong = true;
+            }
+        } else {
+            html += `<span class="char pending">${target[i]}</span>`;
+        }
+    }
+    displayElement.innerHTML = html;
+    return { isWrong, isComplete: typed.length === target.length };
+}
+
+// 监听打字输入
+document.getElementById('hidden-input').addEventListener('input', (e) => {
+    if (isPaused) return;
+    const typed = e.target.value;
+    totalTypedChars++;
+    
+    const { isWrong, isComplete } = renderWordUI(typed);
+    
+    // 粗略计算当前敲击是否正确
+    if (typed.length > 0 && typed[typed.length-1] === currentTask.text[typed.length-1]) {
+        correctTypedChars++;
+    }
+
+    if (isComplete) {
+        if (!isWrong) {
+            correctWordsCount++;
+            speakFeedback(true);
+        } else {
+            speakFeedback(false);
+        }
+        updateStatsUI();
+        
+        // 延迟一点进入下一个，让用户看清全绿的状态
+        setTimeout(nextTask, 400); 
+    }
+});
+
+// 规则 7: 快捷键暂停 (Pause Break 键 或 Esc)
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Pause' || e.code === 'Pause' || e.key === 'Escape') {
+        isPaused = !isPaused;
+        const overlay = document.getElementById('pause-overlay');
+        if (isPaused) {
+            overlay.classList.remove('hidden');
+        } else {
+            overlay.classList.add('hidden');
+            document.getElementById('hidden-input').focus();
+        }
+    }
+});
+
+// 规则 5: 实时计算并显示指标
+function updateStatsUI() {
+    const m = String(Math.floor(secondsElapsed / 60)).padStart(2, '0');
+    const s = String(secondsElapsed % 60).padStart(2, '0');
+    document.getElementById('stat-time').innerText = `${m}:${s}`;
+    
+    const minutes = secondsElapsed / 60 || 1/60; 
+    // WPM: 每分钟输入正确的单词/句子数
+    const wpm = Math.round(correctWordsCount / minutes);
+    document.getElementById('stat-wpm').innerText = wpm;
+    
+    const acc = totalTypedChars === 0 ? 100 : Math.round((correctTypedChars / totalTypedChars) * 100);
+    document.getElementById('stat-acc').innerText = `${acc}%`;
+    
+    const score = Math.round(correctWordsCount * (acc / 100) * 10);
+    document.getElementById('stat-score').innerText = score;
+}
+
+function resetStats() {
+    secondsElapsed = 0; correctWordsCount = 0; totalTypedChars = 0; correctTypedChars = 0;
+    correctStreak = 0; errorStreak = 0;
+    updateStatsUI();
+}
+
+function endGame() {
+    clearInterval(gameTimer);
+    clearInterval(autoSaveTimer);
+    
+    const acc = totalTypedChars === 0 ? 100 : Math.round((correctTypedChars / totalTypedChars) * 100);
+    const score = Math.round(correctWordsCount * (acc / 100) * 10);
+    const minutes = secondsElapsed / 60 || 1/60; 
+    const wpm = Math.round(correctWordsCount / minutes);
+
+    // 规则 9: 每局结束后，保存数据到 IndexedDB
+    saveToDB("game_stats", {
+        timeElapsedSeconds: secondsElapsed,
+        wpm: wpm,
+        accuracy: acc,
+        score: score,
+        correctItemsCount: correctWordsCount
+    });
+
+    alert(`本局结束！\n\n耗时: ${secondsElapsed}秒\nWPM: ${wpm}\n准确率: ${acc}%\n得分: ${score}\n\n数据已保存到本地。`);
+    
+    document.getElementById('game-view').classList.add('hidden');
+    document.getElementById('menu-view').classList.remove('hidden');
+}
+</script>
+</body>
+</html>

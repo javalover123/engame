@@ -1,0 +1,17 @@
+[
+  {
+    "dir": "primary",
+    "name": "小学",
+    "no": 10
+  },
+  {
+    "dir": "junior",
+    "name": "初中",
+    "no": 20
+  },
+  {
+    "dir": "senior",
+    "name": "高中",
+    "no": 30
+  }
+]

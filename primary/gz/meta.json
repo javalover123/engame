@@ -1,0 +1,74 @@
+[
+  {
+    "dir": "3-1",
+    "name": "广州教科版三年级上(新版)",
+    "cnt": 147,
+    "remark": "2024版",
+    "publishDate": "2024-01-01",
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "3-2",
+    "name": "广州教科版三年级下(新版)",
+    "cnt": 140,
+    "remark": "2024版",
+    "publishDate": "2024-01-01",
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "4-1",
+    "name": "广州教科版四年级上(新版)",
+    "cnt": 136,
+    "remark": "2024版",
+    "publishDate": "2024-01-01",
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "4-2",
+    "name": "广州教科版四年级下(新版)",
+    "cnt": 134,
+    "remark": "2024版",
+    "publishDate": "2024-01-01",
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "5-1",
+    "name": "广州教科版五年级上",
+    "cnt": 109,
+    "remark": "",
+    "publishDate": null,
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "5-2",
+    "name": "广州教科版五年级下",
+    "cnt": 135,
+    "remark": "",
+    "publishDate": null,
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "6-1",
+    "name": "广州教科版六年级上",
+    "cnt": 129,
+    "remark": "",
+    "publishDate": null,
+    "cover": null,
+    "status": 1
+  },
+  {
+    "dir": "6-2",
+    "name": "广州教科版六年级下",
+    "cnt": 144,
+    "remark": "",
+    "publishDate": null,
+    "cover": null,
+    "status": 1
+  }
+]
