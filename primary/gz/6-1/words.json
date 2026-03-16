@@ -1,0 +1,1787 @@
+{
+    "word": "country",
+    "cn":[
+      "n. 农村"
+    ],
+    "en": "[ˈkʌntri]",
+    "us": "[ˈkʌntri]",
+    "sentences":[
+      "in the country",
+      "They live in the beautiful country."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "field",
+    "cn":[
+      "n. 田"
+    ],
+    "en": "[fiːld]",
+    "us": "[fiːld]",
+    "sentences":[
+      "work in the field",
+      "The farmers are working in the field."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "pick",
+    "cn": [
+      "v. 摘"
+    ],
+    "en": "[pɪk]",
+    "us": "[pɪk]",
+    "sentences": [
+      "pick apples",
+      "She went to pick some flowers."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "grass",
+    "cn": [
+      "n. 草"
+    ],
+    "en": "[ɡrɑːs]",
+    "us": "[ɡræs]",
+    "sentences":[
+      "green grass",
+      "The cows are eating grass."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "cow",
+    "cn":[
+      "n. 奶牛；母牛"
+    ],
+    "en": "[kaʊ]",
+    "us": "[kaʊ]",
+    "sentences":[
+      "milk a cow",
+      "Look at that black and white cow."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "sheep",
+    "cn":[
+      "n. 绵羊（单复数一样）"
+    ],
+    "en": "[ʃiːp]",
+    "us": "[ʃiːp]",
+    "sentences":[
+      "a flock of sheep",
+      "There are many sheep on the hill."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "other",
+    "cn":[
+      "adj. 其他的；别的",
+      "pron. 其他的（人或事）"
+    ],
+    "en": "[ˈʌðə(r)]",
+    "us": "[ˈʌðər]",
+    "sentences":[
+      "other people",
+      "Do you have any other questions?"
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "few",
+    "cn":[
+      "adj. 极少；几乎没有"
+    ],
+    "en": "[fjuː]",
+    "us": "[fjuː]",
+    "sentences":[
+      "very few",
+      "He has few friends here."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "a few",
+    "cn":[
+      "几（个、条……）"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "a few days",
+      "I need a few apples to make a pie."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "goat",
+    "cn": [
+      "n. 山羊"
+    ],
+    "en": "[ɡəʊt]",
+    "us": "[ɡoʊt]",
+    "sentences":[
+      "a white goat",
+      "The goat has horns."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "goose",
+    "cn": [
+      "n. 鹅（复数是 geese）"
+    ],
+    "en": "[ɡuːs]",
+    "us": "[ɡuːs]",
+    "sentences": [
+      "a wild goose",
+      "The goose is swimming in the pond."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "river",
+    "cn": [
+      "n. 河；江"
+    ],
+    "en": "[ˈrɪvə(r)]",
+    "us": "[ˈrɪvər]",
+    "sentences": [
+      "a long river",
+      "They are fishing by the river."
+    ],
+    "unit": "Unit 1 What are those farmers doing?"
+  },
+  {
+    "word": "grandparent",
+    "cn":[
+      "n. 祖父（母）；外祖父（母）"
+    ],
+    "en": "[ˈɡrænpeərənt]",
+    "us": "[ˈɡrænperənt]",
+    "sentences":[
+      "visit grandparents",
+      "My grandparents live in a small village."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "milk",
+    "cn":[
+      "v. 挤奶"
+    ],
+    "en": "[mɪlk]",
+    "us": "[mɪlk]",
+    "sentences":[
+      "milk the cow",
+      "He gets up early to milk the cows."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "ride",
+    "cn":[
+      "v. 骑（过去式是 rode）"
+    ],
+    "en": "[raɪd]",
+    "us": "[raɪd]",
+    "sentences":[
+      "ride a bike",
+      "I love to ride my horse in the field."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "take",
+    "cn": [
+      "v. 花费（过去式是 took）"
+    ],
+    "en": "[teɪk]",
+    "us": "[teɪk]",
+    "sentences":[
+      "take an hour",
+      "It took me two hours to finish my homework."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "still",
+    "cn": [
+      "adv. 仍然"
+    ],
+    "en": "[stɪl]",
+    "us": "[stɪl]",
+    "sentences": [
+      "still waiting",
+      "It is still raining outside."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "help... with ...",
+    "cn": [
+      "在……（方面）帮助"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "help me with my homework",
+      "Can you help me with the housework?"
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "air",
+    "cn": [
+      "n. 空气"
+    ],
+    "en": "[eə(r)]",
+    "us": "[er]",
+    "sentences":[
+      "fresh air",
+      "The air in the country is very clean."
+    ],
+    "unit": "Unit 2 A country life is a healthy life"
+  },
+  {
+    "word": "city",
+    "cn":[
+      "n. 城市"
+    ],
+    "en": "[ˈsɪti]",
+    "us": "[ˈsɪti]",
+    "sentences":[
+      "a big city",
+      "New York is a modern city."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "student",
+    "cn":[
+      "n. 学生"
+    ],
+    "en": "[ˈstjuːdnt]",
+    "us": "[ˈstuːdnt]",
+    "sentences":[
+      "a middle school student",
+      "She is a good student."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "quiet",
+    "cn":[
+      "adj. 安静的"
+    ],
+    "en": "[ˈkwaɪət]",
+    "us": "[ˈkwaɪət]",
+    "sentences":[
+      "keep quiet",
+      "Please be quiet in the library."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "cheap",
+    "cn": [
+      "adj. 便宜的"
+    ],
+    "en": "[tʃiːp]",
+    "us": "[tʃiːp]",
+    "sentences": [
+      "a cheap dress",
+      "These apples are very cheap."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "modern",
+    "cn": [
+      "adj. 现代化的"
+    ],
+    "en": "[ˈmɒdn]",
+    "us": "[ˈmɑːdərn]",
+    "sentences": [
+      "modern technology",
+      "This is a modern building."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "noisy",
+    "cn": [
+      "adj. 嘈杂的"
+    ],
+    "en": "[ˈnɔɪzi]",
+    "us": "[ˈnɔɪzi]",
+    "sentences":[
+      "a noisy street",
+      "The classroom was very noisy."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "wide",
+    "cn":[
+      "adj. 宽阔的"
+    ],
+    "en": "[waɪd]",
+    "us": "[waɪd]",
+    "sentences":[
+      "a wide river",
+      "The road is very wide."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "crowded",
+    "cn":[
+      "adj. 拥挤的"
+    ],
+    "en": "[ˈkraʊdɪd]",
+    "us": "[ˈkraʊdɪd]",
+    "sentences":[
+      "a crowded bus",
+      "The street is always crowded on Sundays."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "comfortable",
+    "cn":[
+      "adj. 舒服的"
+    ],
+    "en": "[ˈkʌmftəbl]",
+    "us": "[ˈkʌmfərtəbl]",
+    "sentences":[
+      "a comfortable bed",
+      "Make yourself comfortable."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "heavy",
+    "cn":[
+      "adj. 拥挤的；大量的"
+    ],
+    "en": "[ˈhevi]",
+    "us": "[ˈhevi]",
+    "sentences":[
+      "heavy traffic",
+      "There was heavy rain yesterday."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "slow",
+    "cn":[
+      "adj. 慢的；缓慢的"
+    ],
+    "en": "[sləʊ]",
+    "us": "[sloʊ]",
+    "sentences": [
+      "a slow train",
+      "He walks very slow."
+    ],
+    "unit": "Unit 3 Where are you from?"
+  },
+  {
+    "word": "postcard",
+    "cn": [
+      "n. 明信片"
+    ],
+    "en": "[ˈpəʊstkɑːd]",
+    "us": "[ˈpoʊstkɑːrd]",
+    "sentences":[
+      "send a postcard",
+      "I bought a beautiful postcard."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "different to...",
+    "cn":[
+      "不同于……"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "different to mine",
+      "This book is different to that one."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "dirty",
+    "cn": [
+      "adj. 脏的"
+    ],
+    "en": "[ˈdɜːti]",
+    "us": "[ˈdɜːrti]",
+    "sentences":[
+      "dirty hands",
+      "Your clothes are dirty."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "afraid",
+    "cn":[
+      "adj. 害怕"
+    ],
+    "en": "[əˈfreɪd]",
+    "us": "[əˈfreɪd]",
+    "sentences":[
+      "be afraid of dogs",
+      "Don't be afraid."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "be afraid ...",
+    "cn": [
+      "害怕……"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "be afraid to go",
+      "I am afraid of the dark."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "because",
+    "cn": [
+      "conj. 因为"
+    ],
+    "en": "[bɪˈkɒz]",
+    "us": "[bɪˈkɔːz]",
+    "sentences":[
+      "just because",
+      "I stayed at home because it rained."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "sell",
+    "cn":[
+      "v. 出售（过去式是 sold）"
+    ],
+    "en": "[sel]",
+    "us": "[sel]",
+    "sentences": [
+      "sell well",
+      "They sell fresh vegetables here."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "countryside",
+    "cn": [
+      "n. 农村"
+    ],
+    "en": "[ˈkʌntrisaɪd]",
+    "us": "[ˈkʌntrisaɪd]",
+    "sentences":[
+      "beautiful countryside",
+      "I enjoy walking in the countryside."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "theatre",
+    "cn":[
+      "n. 剧院"
+    ],
+    "en": "[ˈθɪətə(r)]",
+    "us": "[ˈθiːətər]",
+    "sentences":[
+      "go to the theatre",
+      "We watched a play at the theatre."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "all day",
+    "cn":[
+      "整天"
+    ],
+    "en": "",
+    "us": "",
+    "sentences": [
+      "work all day",
+      "It rained all day yesterday."
+    ],
+    "unit": "Unit 4 I like the city very much"
+  },
+  {
+    "word": "health",
+    "cn": [
+      "n. 健康"
+    ],
+    "en": "[helθ]",
+    "us": "[helθ]",
+    "sentences":[
+      "in good health",
+      "Smoking is bad for your health."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "matter",
+    "cn": [
+      "n. 事情"
+    ],
+    "en": "[ˈmætə(r)]",
+    "us": "[ˈmætər]",
+    "sentences":[
+      "an important matter",
+      "What is the matter with you?"
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "What's the matter?",
+    "cn": [
+      "怎么回事？"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "What's the matter with him?",
+      "You look sad. What's the matter?"
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "ill",
+    "cn": [
+      "adj. 病的"
+    ],
+    "en": "[ɪl]",
+    "us": "[ɪl]",
+    "sentences":[
+      "fall ill",
+      "He is seriously ill in hospital."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "stomachache",
+    "cn":[
+      "n. 胃疼"
+    ],
+    "en": "[ˈstʌməkeɪk]",
+    "us": "[ˈstʌməkeɪk]",
+    "sentences":[
+      "have a stomachache",
+      "I ate too much and got a stomachache."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "ate",
+    "cn": [
+      "v. 吃（eat的过去式）"
+    ],
+    "en": "[et]",
+    "us": "[eɪt]",
+    "sentences":[
+      "ate an apple",
+      "He ate all the cake."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "hear",
+    "cn":[
+      "v. 听到（过去式是 heard）"
+    ],
+    "en": "[hɪə(r)]",
+    "us": "[hɪr]",
+    "sentences":[
+      "hear about",
+      "Can you hear me?"
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "I'm sorry to hear that.",
+    "cn": [
+      "听到这个我感到很难过。"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "My dog died.",
+      "I'm sorry to hear that."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "gave",
+    "cn": [
+      "v. 给（give的过去式）"
+    ],
+    "en": "[ɡeɪv]",
+    "us": "[ɡeɪv]",
+    "sentences":[
+      "gave a gift",
+      "She gave me a beautiful book."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "check-up",
+    "cn": [
+      "n. 检查"
+    ],
+    "en": "[ˈtʃek ʌp]",
+    "us": "[ˈtʃek ʌp]",
+    "sentences":[
+      "a medical check-up",
+      "You should go to the doctor for a check-up."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "take",
+    "cn":[
+      "v. 服（药）（过去式是 took）"
+    ],
+    "en": "[teɪk]",
+    "us": "[teɪk]",
+    "sentences":[
+      "take some medicine",
+      "You need to take this pill twice a day."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "medicine",
+    "cn":[
+      "n. 药"
+    ],
+    "en": "[ˈmedsn]",
+    "us": "[ˈmedsn]",
+    "sentences":[
+      "take medicine",
+      "The medicine tastes bitter."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "time",
+    "cn":[
+      "n. 次"
+    ],
+    "en": "[taɪm]",
+    "us": "[taɪm]",
+    "sentences":[
+      "three times",
+      "I have been there for the first time."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "toothache",
+    "cn":[
+      "n. 牙疼"
+    ],
+    "en": "[ˈtuːθeɪk]",
+    "us": "[ˈtuːθeɪk]",
+    "sentences":[
+      "have a toothache",
+      "I have a terrible toothache."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "brush",
+    "cn":[
+      "v. 刷"
+    ],
+    "en": "[brʌʃ]",
+    "us": "[brʌʃ]",
+    "sentences":[
+      "brush your teeth",
+      "Don't forget to brush your shoes."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "twice",
+    "cn":[
+      "num. 两次"
+    ],
+    "en": "[twaɪs]",
+    "us": "[twaɪs]",
+    "sentences":[
+      "twice a week",
+      "I read that book twice."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "broken",
+    "cn":[
+      "adj. 断了的"
+    ],
+    "en": "[ˈbrəʊkən]",
+    "us": "[ˈbroʊkən]",
+    "sentences":[
+      "a broken leg",
+      "The window is broken."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "finger",
+    "cn":[
+      "n. 手指"
+    ],
+    "en": "[ˈfɪŋɡə(r)]",
+    "us": "[ˈfɪŋɡər]",
+    "sentences":[
+      "cut one's finger",
+      "She has a ring on her finger."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "rest",
+    "cn": [
+      "n. 休息"
+    ],
+    "en": "[rest]",
+    "us": "[rest]",
+    "sentences":[
+      "have a rest",
+      "You look tired, go and get some rest."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "take a rest",
+    "cn":[
+      "休息"
+    ],
+    "en": "",
+    "us": "",
+    "sentences": [
+      "let's take a rest",
+      "You should take a rest after working so long."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "have a cold",
+    "cn": [
+      "感冒"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "catch a cold",
+      "I have a bad cold today."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "wore",
+    "cn": [
+      "v. 穿（wear的过去式）"
+    ],
+    "en": "[wɔː(r)]",
+    "us": "[wɔːr]",
+    "sentences": [
+      "wore a coat",
+      "She wore a beautiful dress to the party."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "headache",
+    "cn": [
+      "n. 头疼"
+    ],
+    "en": "[ˈhedeɪk]",
+    "us": "[ˈhedeɪk]",
+    "sentences":[
+      "have a headache",
+      "The loud music gave me a headache."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "could",
+    "cn":[
+      "aux.v. 能够（can的过去式）"
+    ],
+    "en": "[kəd]",
+    "us": "[kʊd]",
+    "sentences": [
+      "could do",
+      "I could swim when I was five."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "fever",
+    "cn":[
+      "n. 发烧"
+    ],
+    "en": "[ˈfiːvə(r)]",
+    "us": "[ˈfiːvər]",
+    "sentences":[
+      "have a high fever",
+      "He is in bed with a fever."
+    ],
+    "unit": "Unit 5 What's the matter with you?"
+  },
+  {
+    "word": "secret",
+    "cn":[
+      "n. 秘密"
+    ],
+    "en": "[ˈsiːkrət]",
+    "us": "[ˈsiːkrət]",
+    "sentences":[
+      "keep a secret",
+      "I will tell you a secret."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "simple",
+    "cn":[
+      "adj. 简单的"
+    ],
+    "en": "[ˈsɪmpl]",
+    "us": "[ˈsɪmpl]",
+    "sentences":[
+      "a simple question",
+      "The math problem is very simple."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "least",
+    "cn":[
+      "adj. 最少（小）"
+    ],
+    "en": "[liːst]",
+    "us": "[liːst]",
+    "sentences": [
+      "at least",
+      "He is the least experienced player."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "at least",
+    "cn": [
+      "至少"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "at least once",
+      "You should brush your teeth at least twice a day."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "diet",
+    "cn":[
+      "n. 节食；限食"
+    ],
+    "en": "[ˈdaɪət]",
+    "us": "[ˈdaɪət]",
+    "sentences":[
+      "on a diet",
+      "A healthy diet is important."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "keep a good diet",
+    "cn": [
+      "保持一个良好的饮食习惯"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "learn to keep a good diet",
+      "We should keep a good diet to stay healthy."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "less",
+    "cn":[
+      "adj. 较少的"
+    ],
+    "en": "[les]",
+    "us": "[les]",
+    "sentences": [
+      "less than",
+      "Eat less sugar and more fruit."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "oily",
+    "cn": [
+      "adj. 多油的；油腻的"
+    ],
+    "en": "[ˈɔɪli]",
+    "us": "[ˈɔɪli]",
+    "sentences":[
+      "oily food",
+      "I don't like eating oily food."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "finally",
+    "cn": [
+      "adv. 最后地"
+    ],
+    "en": "[ˈfaɪnəli]",
+    "us": "[ˈfaɪnəli]",
+    "sentences": [
+      "finally finished",
+      "We finally arrived at the station."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "smile",
+    "cn":[
+      "v. 微笑",
+      "n. 微笑；笑容"
+    ],
+    "en": "[smaɪl]",
+    "us": "[smaɪl]",
+    "sentences": [
+      "smile at someone",
+      "She has a beautiful smile."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "even",
+    "cn": [
+      "adv. 甚至"
+    ],
+    "en": "[ˈiːvn]",
+    "us": "[ˈiːvn]",
+    "sentences":[
+      "even better",
+      "He didn't even say goodbye."
+    ],
+    "unit": "Unit 6 The secret to good health"
+  },
+  {
+    "word": "past",
+    "cn": [
+      "adj. 过去的",
+      "n. 过去"
+    ],
+    "en": "[pɑːst]",
+    "us": "[pæst]",
+    "sentences": [
+      "in the past",
+      "Forget the past and look forward."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "experience",
+    "cn": [
+      "n. 经验；经历"
+    ],
+    "en": "[ɪkˈspɪəriəns]",
+    "us": "[ɪkˈspɪriəns]",
+    "sentences":[
+      "work experience",
+      "It was an unforgettable experience."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "yesterday",
+    "cn":[
+      "n. 昨天",
+      "adv. 在昨天"
+    ],
+    "en": "[ˈjestədeɪ]",
+    "us": "[ˈjestərdeɪ]",
+    "sentences":[
+      "yesterday morning",
+      "I went to the park yesterday."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "bought",
+    "cn":[
+      "v. 买（buy的过去式）"
+    ],
+    "en": "[bɔːt]",
+    "us": "[bɔːt]",
+    "sentences":[
+      "bought a book",
+      "My mother bought me a new shirt."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "angry",
+    "cn":[
+      "adj. 生气的；愤怒的"
+    ],
+    "en": "[ˈæŋɡri]",
+    "us": "[ˈæŋɡri]",
+    "sentences":[
+      "be angry with",
+      "He was very angry about the mistake."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "came",
+    "cn": [
+      "v. 来（come的过去式）"
+    ],
+    "en": "[keɪm]",
+    "us": "[keɪm]",
+    "sentences":[
+      "came back",
+      "He came to see me last night."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "no/not...at all",
+    "cn": [
+      "一点都不……"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "not tired at all",
+      "I am not hungry at all."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "poor",
+    "cn":[
+      "adj. 可怜的"
+    ],
+    "en": "[pɔː(r)]",
+    "us": "[pʊr]",
+    "sentences": [
+      "poor dog",
+      "The poor boy has no home."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "last",
+    "cn":[
+      "adj. 最近的，上一个的",
+      "adv. 上一个"
+    ],
+    "en": "[lɑːst]",
+    "us": "[læst]",
+    "sentences":[
+      "last night",
+      "I saw him last week."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "year",
+    "cn":[
+      "n. 年"
+    ],
+    "en": "[jɪə(r)]",
+    "us": "[jɪr]",
+    "sentences":[
+      "next year",
+      "We will graduate next year."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "met",
+    "cn":[
+      "v. 遇见；聚集（meet的过去式）"
+    ],
+    "en": "[met]",
+    "us": "[met]",
+    "sentences": [
+      "met a friend",
+      "We met at the station."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "saw",
+    "cn":[
+      "v. 看见；明白（see的过去式）"
+    ],
+    "en": "[sɔː]",
+    "us": "[sɔː]",
+    "sentences": [
+      "saw a movie",
+      "I saw him playing football."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "read",
+    "cn":[
+      "v. 读（read的过去式）"
+    ],
+    "en": "[red]",
+    "us": "[red]",
+    "sentences": [
+      "read a book",
+      "I read an interesting story yesterday."
+    ],
+    "unit": "Unit 7 What did you do yesterday?"
+  },
+  {
+    "word": "diary",
+    "cn": [
+      "n. 日记"
+    ],
+    "en": "[ˈdaɪəri]",
+    "us": "[ˈdaɪəri]",
+    "sentences":[
+      "keep a diary",
+      "She wrote the event in her diary."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "Disneyland",
+    "cn": [
+      "迪士尼公园"
+    ],
+    "en": "[ˈdɪznilænd]",
+    "us": "[ˈdɪznilænd]",
+    "sentences":[
+      "visit Disneyland",
+      "Kids love going to Disneyland."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "Mickey Mouse",
+    "cn": [
+      "米老鼠"
+    ],
+    "en": "[ˌmɪki ˈmaʊs]",
+    "us": "[ˌmɪki ˈmaʊs]",
+    "sentences":[
+      "like Mickey Mouse",
+      "Mickey Mouse is a famous cartoon character."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "Donald Duck",
+    "cn": [
+      "唐老鸭"
+    ],
+    "en": "[ˌdɒnld ˈdʌk]",
+    "us": "[ˌdɑːnld ˈdʌk]",
+    "sentences":[
+      "watch Donald Duck",
+      "Donald Duck is very funny."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "a little",
+    "cn":[
+      "一点"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "a little water",
+      "I speak a little French."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "later",
+    "cn": [
+      "adv. 后来"
+    ],
+    "en": "[ˈleɪtə(r)]",
+    "us": "[ˈleɪtər]",
+    "sentences":[
+      "see you later",
+      "He came back later in the evening."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "felt",
+    "cn": [
+      "v. 感觉，觉得（feel的过去式）"
+    ],
+    "en": "[felt]",
+    "us": "[felt]",
+    "sentences":[
+      "felt happy",
+      "She felt sick after eating the fish."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "sat",
+    "cn": [
+      "v. 坐（sit的过去式）"
+    ],
+    "en": "[sæt]",
+    "us": "[sæt]",
+    "sentences":[
+      "sat down",
+      "He sat on the chair and read a book."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "until",
+    "cn": [
+      "prep. 直到"
+    ],
+    "en": "[ənˈtɪl]",
+    "us": "[ənˈtɪl]",
+    "sentences":[
+      "wait until tomorrow",
+      "I didn't sleep until midnight."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "better",
+    "cn": [
+      "adj. & adv. 更好"
+    ],
+    "en": "[ˈbetə(r)]",
+    "us": "[ˈbetər]",
+    "sentences":[
+      "get better",
+      "He plays basketball better than me."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "surprised",
+    "cn": [
+      "adj. 惊讶的"
+    ],
+    "en": "[səˈpraɪzd]",
+    "us": "[sərˈpraɪzd]",
+    "sentences":[
+      "be surprised at",
+      "I was surprised to see him there."
+    ],
+    "unit": "Unit 8 A trip to Hong Kong"
+  },
+  {
+    "word": "back then",
+    "cn": [
+      "当时；过去那个时候"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "life back then",
+      "Things were very different back then."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "polite",
+    "cn":[
+      "adj. 有礼貌的"
+    ],
+    "en": "[pəˈlaɪt]",
+    "us": "[pəˈlaɪt]",
+    "sentences":[
+      "be polite to",
+      "It is important to be polite to others."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "surf",
+    "cn": [
+      "v. 浏览"
+    ],
+    "en": "[sɜːf]",
+    "us": "[sɜːrf]",
+    "sentences":[
+      "surf the web",
+      "He likes to surf on weekends."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "Internet",
+    "cn": [
+      "n. 因特网"
+    ],
+    "en": "[ˈɪntənet]",
+    "us": "[ˈɪntərnet]",
+    "sentences":[
+      "on the Internet",
+      "You can find a lot of information on the Internet."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "surf the Internet",
+    "cn": [
+      "上网"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "love to surf the Internet",
+      "I surf the Internet to read news."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "fat",
+    "cn":[
+      "adj. 肥胖的"
+    ],
+    "en": "[fæt]",
+    "us": "[fæt]",
+    "sentences":[
+      "a fat cat",
+      "He is a little fat."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "cry",
+    "cn":[
+      "v. 哭"
+    ],
+    "en": "[kraɪ]",
+    "us": "[kraɪ]",
+    "sentences": [
+      "cry loudly",
+      "Please don't cry."
+    ],
+    "unit": "Unit 9 Was I a good girl back then?"
+  },
+  {
+    "word": "ago",
+    "cn": [
+      "adv. ……之前"
+    ],
+    "en": "[əˈɡəʊ]",
+    "us": "[əˈɡoʊ]",
+    "sentences":[
+      "long ago",
+      "I saw him a few minutes ago."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "village",
+    "cn":[
+      "n. 村子；村庄"
+    ],
+    "en": "[ˈvɪlɪdʒ]",
+    "us": "[ˈvɪlɪdʒ]",
+    "sentences":[
+      "a small village",
+      "She grew up in a mountain village."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "nearby",
+    "cn":[
+      "prep. & adv. 附近"
+    ],
+    "en": "[ˌnɪəˈbaɪ]",
+    "us": "[ˌnɪrˈbaɪ]",
+    "sentences":[
+      "live nearby",
+      "There is a supermarket nearby."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "far away",
+    "cn":[
+      "遥远"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "far away from",
+      "His home is far away from the school."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "office",
+    "cn": [
+      "n. 办公室"
+    ],
+    "en": "[ˈɒfɪs]",
+    "us": "[ˈɑːfɪs]",
+    "sentences":[
+      "work in an office",
+      "He is the manager of this office."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "store",
+    "cn": [
+      "n. 商店"
+    ],
+    "en": "[stɔː(r)]",
+    "us": "[stɔːr]",
+    "sentences":[
+      "a clothing store",
+      "I need to go to the store to buy some milk."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "department store",
+    "cn": [
+      "百货公司"
+    ],
+    "en": "[dɪˈpɑːtmənt stɔː(r)]",
+    "us": "[dɪˈpɑːrtmənt stɔːr]",
+    "sentences":[
+      "go to the department store",
+      "We bought this coat at the department store."
+    ],
+    "unit": "Unit 10 Then and now"
+  },
+  {
+    "word": "each other",
+    "cn": [
+      "互相"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "help each other",
+      "They smiled at each other."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "gift",
+    "cn":[
+      "n. 礼物"
+    ],
+    "en": "[ɡɪft]",
+    "us": "[ɡɪft]",
+    "sentences":[
+      "a birthday gift",
+      "Thank you for the wonderful gift."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "lucky",
+    "cn":[
+      "adj. 幸运的"
+    ],
+    "en": "[ˈlʌki]",
+    "us": "[ˈlʌki]",
+    "sentences":[
+      "a lucky dog",
+      "You are very lucky to be here."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "lucky money",
+    "cn":[
+      "压岁钱"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "get lucky money",
+      "Children receive lucky money during the Spring Festival."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "wish",
+    "cn": [
+      "v. & n. 希望；祝愿"
+    ],
+    "en": "[wɪʃ]",
+    "us": "[wɪʃ]",
+    "sentences":[
+      "make a wish",
+      "I wish you a happy new year."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "jiaozi",
+    "cn": [
+      "n. 饺子"
+    ],
+    "en": "[ˈdʒaʊtsə]",
+    "us": "[ˈdʒaʊtsə]",
+    "sentences":[
+      "make jiaozi",
+      "We eat jiaozi on Chinese New Year's Eve."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "moon",
+    "cn": [
+      "n. 月亮"
+    ],
+    "en": "[muːn]",
+    "us": "[muːn]",
+    "sentences":[
+      "the full moon",
+      "The moon is bright tonight."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "mooncake",
+    "cn":[
+      "n. 月饼"
+    ],
+    "en": "[ˈmuːnkeɪk]",
+    "us": "[ˈmuːnkeɪk]",
+    "sentences":[
+      "eat a mooncake",
+      "Mooncakes are traditional food for Mid-Autumn Festival."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "dragon",
+    "cn": [
+      "n. 龙"
+    ],
+    "en": "[ˈdræɡən]",
+    "us": "[ˈdræɡən]",
+    "sentences":[
+      "a flying dragon",
+      "The dragon is an important symbol in Chinese culture."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "Dragon Boat Festival",
+    "cn":[
+      "端午节"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "celebrate Dragon Boat Festival",
+      "People have dragon boat races on the Dragon Boat Festival."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "zongzi",
+    "cn": [
+      "n. 粽子"
+    ],
+    "en": "[ˈzʊŋzɪ]",
+    "us": "[ˈzʊŋzɪ]",
+    "sentences":[
+      "make zongzi",
+      "I like eating zongzi with meat."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "race",
+    "cn":[
+      "n. 比赛"
+    ],
+    "en": "[reɪs]",
+    "us": "[reɪs]",
+    "sentences":[
+      "win a race",
+      "Are you going to take part in the boat race?"
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "Chongyang Festival",
+    "cn":[
+      "重阳节"
+    ],
+    "en": "",
+    "us": "",
+    "sentences":[
+      "on Chongyang Festival",
+      "Old people are respected on Chongyang Festival."
+    ],
+    "unit": "Unit 11 I like the Spring Festival best"
+  },
+  {
+    "word": "lunar",
+    "cn": [
+      "adj. 月亮的"
+    ],
+    "en": "[ˈluːnə(r)]",
+    "us": "[ˈluːnər]",
+    "sentences":[
+      "lunar calendar",
+      "The Spring Festival is on the first day of the lunar year."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "celebrate",
+    "cn":[
+      "v. 庆祝"
+    ],
+    "en": "[ˈselɪbreɪt]",
+    "us": "[ˈselɪbreɪt]",
+    "sentences":[
+      "celebrate a birthday",
+      "How do you celebrate the festival?"
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "remember",
+    "cn":[
+      "v. 记住"
+    ],
+    "en": "[rɪˈmembə(r)]",
+    "us": "[rɪˈmembər]",
+    "sentences":[
+      "remember my name",
+      "Please remember to turn off the light."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "ancient",
+    "cn": [
+      "adj. 古代的"
+    ],
+    "en": "[ˈeɪnʃənt]",
+    "us": "[ˈeɪnʃənt]",
+    "sentences":[
+      "ancient history",
+      "China is an ancient country."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "poet",
+    "cn": [
+      "n. 诗人"
+    ],
+    "en": "[ˈpəʊɪt]",
+    "us": "[ˈpoʊət]",
+    "sentences":[
+      "a great poet",
+      "Li Bai is a famous Chinese poet."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "bean",
+    "cn": [
+      "n. 豆"
+    ],
+    "en": "[biːn]",
+    "us": "[biːn]",
+    "sentences":[
+      "red bean",
+      "She doesn't like eating beans."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "bamboo",
+    "cn":[
+      "n. 竹子"
+    ],
+    "en": "[ˌbæmˈbuː]",
+    "us": "[ˌbæmˈbuː]",
+    "sentences":[
+      "bamboo leaves",
+      "Pandas love to eat bamboo."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "cheer",
+    "cn":[
+      "v. 欢呼"
+    ],
+    "en": "[tʃɪə(r)]",
+    "us": "[tʃɪr]",
+    "sentences":[
+      "cheer up",
+      "The crowd cheered for the winner."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "reunion",
+    "cn": [
+      "n. 重聚"
+    ],
+    "en": "[ˌriːˈjuːniən]",
+    "us": "[ˌriːˈjuːniən]",
+    "sentences":[
+      "a family reunion",
+      "The festival is a time for family reunion."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  },
+  {
+    "word": "lantern",
+    "cn": [
+      "n. 灯笼"
+    ],
+    "en": "[ˈlæntən]",
+    "us": "[ˈlæntərn]",
+    "sentences":[
+      "a red lantern",
+      "They made some beautiful lanterns for the festival."
+    ],
+    "unit": "Unit 12 Other festivals in China"
+  }
+]
