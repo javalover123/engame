@@ -1,0 +1,1194 @@
+[
+  {
+    "word": "steady",
+    "cn":["adj. 稳健的"],
+    "en": "[ˈstedi]",
+    "us": "[ˈstedi]",
+    "sentences":["go steady", "steady on!", "She took a deep breath to keep her voice steady."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "win",
+    "cn":["v. 赢，赢得（过去式是won）"],
+    "en": "[wɪn]",
+    "us": "[wɪn]",
+    "sentences": ["win a game", "He won the first prize in the competition."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "carry",
+    "cn": ["v. 携带；扛"],
+    "en": "[ˈkæri]",
+    "us": "[ˈkæri]",
+    "sentences":["carry a bag", "She carried her baby in her arms."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "such",
+    "cn": ["adj. 如此"],
+    "en": "[sʌtʃ]",
+    "us": "[sʌtʃ]",
+    "sentences": ["such a good day", "I have never seen such a beautiful place."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "in such a hurry",
+    "cn": ["如此匆忙"],
+    "en": "",
+    "us": "",
+    "sentences": ["be in such a hurry", "Why are you in such a hurry?"],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "silly",
+    "cn": ["adj. 愚蠢的"],
+    "en": "[ˈsɪli]",
+    "us": "[ˈsɪli]",
+    "sentences":["a silly mistake", "Don't be so silly."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "hare",
+    "cn":["n. 野兔"],
+    "en": "[heə(r)]",
+    "us": "[her]",
+    "sentences": ["catch a hare", "The hare ran fast across the field."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "mean",
+    "cn": ["v. 意思是（过去式是meant）"],
+    "en": "[miːn]",
+    "us": "[miːn]",
+    "sentences":["what do you mean", "This word means 'happy'."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "tortoise",
+    "cn": ["n. 龟"],
+    "en": "[ˈtɔːtəs]",
+    "us": "[ˈtɔːrtəs]",
+    "sentences": ["a slow tortoise", "The tortoise has a hard shell."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "proud",
+    "cn": ["adj. 骄傲的"],
+    "en": "[praʊd]",
+    "us": "[praʊd]",
+    "sentences":["be proud of", "They are very proud of their son."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "careless",
+    "cn": ["adj. 不小心的"],
+    "en": "[ˈkeələs]",
+    "us": "[ˈkerləs]",
+    "sentences":["a careless mistake", "He is sometimes careless with his money."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "patient",
+    "cn": ["adj. 耐心的"],
+    "en": "[ˈpeɪʃnt]",
+    "us": "[ˈpeɪʃnt]",
+    "sentences":["be patient with", "You need to be patient with children."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "sad",
+    "cn": ["adj. 悲伤的"],
+    "en": "[sæd]",
+    "us": "[sæd]",
+    "sentences":["feel sad", "The movie has a sad ending."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "harder",
+    "cn":["adv. 更努力地"],
+    "en": "[ˈhɑːdə(r)]",
+    "us": "[ˈhɑːrdər]",
+    "sentences":["work harder", "You must try harder next time."],
+    "unit": "Unit 1 Slow and steady wins the race"
+  },
+  {
+    "word": "another",
+    "cn": ["pron. 另一个"],
+    "en": "[əˈnʌðə(r)]",
+    "us": "[əˈnʌðər]",
+    "sentences": ["another one", "Would you like another cup of tea?"],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "crash",
+    "cn": ["v. 碰撞"],
+    "en": "[kræʃ]",
+    "us": "[kræʃ]",
+    "sentences": ["crash into", "The car crashed into a tree."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "into",
+    "cn": ["prep. 到；到……上"],
+    "en": "[ˈɪntə]",
+    "us": "[ˈɪntuː]",
+    "sentences":["go into", "He walked into the room."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "ground",
+    "cn": ["n. 地面"],
+    "en": "[ɡraʊnd]",
+    "us": "[ɡraʊnd]",
+    "sentences": ["on the ground", "The apples fell to the ground."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "die",
+    "cn":["v. 死"],
+    "en": "[daɪ]",
+    "us": "[daɪ]",
+    "sentences": ["die of", "The plant will die without water."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "pick up",
+    "cn": ["捡起"],
+    "en": "",
+    "us": "",
+    "sentences":["pick up the trash", "Can you pick up that book for me?"],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "easy",
+    "cn":["adj. 容易的"],
+    "en": "[ˈiːzi]",
+    "us": "[ˈiːzi]",
+    "sentences": ["easy to do", "The exam was very easy."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "himself",
+    "cn": ["pron. 他自己"],
+    "en": "[hɪmˈself]",
+    "us": "[hɪmˈself]",
+    "sentences":["by himself", "He cooked the meal all by himself."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "from then on",
+    "cn": ["从那时候起"],
+    "en": "",
+    "us": "",
+    "sentences":["study hard from then on", "From then on, they became good friends."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "stop",
+    "cn": ["v. 停止"],
+    "en": "[stɒp]",
+    "us": "[stɑːp]",
+    "sentences":["stop doing something", "Please stop talking."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "all day long",
+    "cn": ["整天"],
+    "en": "",
+    "us": "",
+    "sentences":["work all day long", "He played computer games all day long."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "appear",
+    "cn": ["v. 出现"],
+    "en": "[əˈpɪə(r)]",
+    "us": "[əˈpɪr]",
+    "sentences": ["suddenly appear", "A tall man suddenly appeared at the door."],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "go for it",
+    "cn": ["努力吧；加油"],
+    "en": "",
+    "us": "",
+    "sentences": ["just go for it", "If you really want the job, go for it!"],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "happen (to)",
+    "cn": ["v. 发生（于）"],
+    "en": "[ˈhæpən]",
+    "us": "[ˈhæpən]",
+    "sentences": ["happen to someone", "What happened to you yesterday?"],
+    "unit": "Unit 2 Waiting for another hare"
+  },
+  {
+    "word": "difficult",
+    "cn": ["adj. 困难的"],
+    "en": "[ˈdɪfɪkəlt]",
+    "us": "[ˈdɪfɪkəlt]",
+    "sentences":["a difficult task", "This math problem is very difficult."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "frog",
+    "cn": ["n. 青蛙"],
+    "en": "[frɒɡ]",
+    "us": "[frɑːɡ]",
+    "sentences":["a green frog", "The frog jumped into the pool."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "kangaroo",
+    "cn":["n. 袋鼠"],
+    "en": "[ˌkæŋɡəˈruː]",
+    "us": "[ˌkæŋɡəˈruː]",
+    "sentences":["a baby kangaroo", "The kangaroo can jump very high."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "turn",
+    "cn": ["n. 轮回；轮到的机会"],
+    "en": "[tɜːn]",
+    "us": "[tɜːrn]",
+    "sentences": ["one's turn", "It is your turn to clean the blackboard."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "ocean",
+    "cn":["n. 海洋"],
+    "en": "[ˈəʊʃn]",
+    "us": "[ˈoʊʃn]",
+    "sentences": ["the Pacific Ocean", "Many animals live in the ocean."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "starfish",
+    "cn": ["n. 海星"],
+    "en": "[ˈstɑːfɪʃ]",
+    "us": "[ˈstɑːrfɪʃ]",
+    "sentences":["a beautiful starfish", "We found a starfish on the beach."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "Africa",
+    "cn":["n. 非洲"],
+    "en": "[ˈæfrɪkə]",
+    "us": "[ˈæfrɪkə]",
+    "sentences": ["South Africa", "Lions live in Africa."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "tiger",
+    "cn": ["n. 老虎"],
+    "en": "[ˈtaɪɡə(r)]",
+    "us": "[ˈtaɪɡər]",
+    "sentences":["a wild tiger", "The tiger is a dangerous animal."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "Asia",
+    "cn": ["n. 亚洲"],
+    "en": "[ˈeɪʒə]",
+    "us": "[ˈeɪʒə]",
+    "sentences":["in Asia", "China is a large country in Asia."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "be called",
+    "cn":["被称为"],
+    "en": "",
+    "us": "",
+    "sentences":["be called the king", "The lion is often called the king of the jungle."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "lion",
+    "cn":["n. 狮子"],
+    "en": "[ˈlaɪən]",
+    "us": "[ˈlaɪən]",
+    "sentences": ["a brave lion", "We saw a lion in the zoo."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "panda",
+    "cn": ["n. 熊猫"],
+    "en": "[ˈpændə]",
+    "us": "[ˈpændə]",
+    "sentences": ["a giant panda", "The panda is black and white."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "elephant",
+    "cn": ["n. 象"],
+    "en": "[ˈelɪfənt]",
+    "us": "[ˈelɪfənt]",
+    "sentences":["an African elephant", "The elephant has a long nose."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "giraffe",
+    "cn": ["n. 长颈鹿"],
+    "en": "[dʒəˈrɑːf]",
+    "us": "[dʒəˈræf]",
+    "sentences": ["a tall giraffe", "The giraffe is eating leaves from the tree."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "neck",
+    "cn": ["n. 脖子"],
+    "en": "[nek]",
+    "us": "[nek]",
+    "sentences":["a long neck", "She wore a beautiful necklace around her neck."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "leaf",
+    "cn": ["n. 树叶（复数是 leaves）"],
+    "en": "[liːf]",
+    "us": "[liːf]",
+    "sentences": ["a green leaf", "The tree has lost all its leaves."],
+    "unit": "Unit 3 What animal is it?"
+  },
+  {
+    "word": "save",
+    "cn":["v. 拯救；节省"],
+    "en": "[seɪv]",
+    "us": "[seɪv]",
+    "sentences": ["save water", "We must do something to save the animals."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "only",
+    "cn": ["adj. 唯一的 adv. 仅仅"],
+    "en": "[ˈəʊnli]",
+    "us": "[ˈoʊnli]",
+    "sentences":["the only one", "I only have five dollars left."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "earth",
+    "cn": ["n. 地球"],
+    "en": "[ɜːθ]",
+    "us": "[ɜːrθ]",
+    "sentences":["on earth", "The earth goes around the sun."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "whale",
+    "cn":["n. 鲸鱼"],
+    "en": "[weɪl]",
+    "us": "[weɪl]",
+    "sentences": ["a blue whale", "Whales are the largest animals in the sea."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "danger",
+    "cn": ["n. 危险"],
+    "en": "[ˈdeɪndʒə(r)]",
+    "us": "[ˈdeɪndʒər]",
+    "sentences":["in danger", "The sign warned of danger."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "in danger",
+    "cn": ["处于危险中"],
+    "en": "",
+    "us": "",
+    "sentences":["be in danger", "Many wild animals are in danger."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "disappear",
+    "cn": ["v. 消失"],
+    "en": "[ˌdɪsəˈpɪə(r)]",
+    "us": "[ˌdɪsəˈpɪr]",
+    "sentences": ["disappear completely", "The sun disappeared behind a cloud."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "forever",
+    "cn": ["adv. 永远"],
+    "en": "[fərˈevə(r)]",
+    "us": "[fərˈevər]",
+    "sentences":["lost forever", "I will remember you forever."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "forest",
+    "cn": ["n. 森林"],
+    "en": "[ˈfɒrɪst]",
+    "us": "[ˈfɔːrɪst]",
+    "sentences": ["a thick forest", "Tigers live in the forest."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "pollute",
+    "cn": ["v. 污染"],
+    "en": "[pəˈluːt]",
+    "us": "[pəˈluːt]",
+    "sentences":["pollute the river", "Factories shouldn't pollute the air."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "made",
+    "cn":["v. 制造（make的过去式）"],
+    "en": "[meɪd]",
+    "us": "[meɪd]",
+    "sentences": ["made of wood", "This table is made of wood."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "make from",
+    "cn": ["用……制造"],
+    "en": "",
+    "us": "",
+    "sentences": ["be made from", "Paper is made from wood."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "fur",
+    "cn":["n. 皮毛"],
+    "en": "[fɜː(r)]",
+    "us": "[fɜːr]",
+    "sentences": ["soft fur", "The cat has very soft fur."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "sea",
+    "cn": ["n. 海洋"],
+    "en": "[siː]",
+    "us": "[siː]",
+    "sentences": ["by the sea", "They went swimming in the sea."],
+    "unit": "Unit 4 We can save the animals"
+  },
+  {
+    "word": "famous",
+    "cn": ["adj. 著名的"],
+    "en": "[ˈfeɪməs]",
+    "us": "[ˈfeɪməs]",
+    "sentences":["a famous singer", "He is famous for his books."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "Doctor",
+    "cn":["医生；博士"],
+    "en": "[ˈdɒktə(r)]",
+    "us": "[ˈdɑːktər]",
+    "sentences": ["see a doctor", "Dr. Smith is a very good doctor."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "person",
+    "cn": ["n. 人"],
+    "en": "[ˈpɜːsn]",
+    "us": "[ˈpɜːrsn]",
+    "sentences":["a nice person", "She is a very kind person."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "history",
+    "cn": ["n. 历史"],
+    "en": "[ˈhɪstri]",
+    "us": "[ˈhɪstri]",
+    "sentences": ["Chinese history", "I like reading history books."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "leader",
+    "cn":["n. 领袖"],
+    "en": "[ˈliːdə(r)]",
+    "us": "[ˈliːdər]",
+    "sentences":["a great leader", "He was a great leader of the country."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "free",
+    "cn": ["v. 使……自由"],
+    "en": "[friː]",
+    "us": "[friː]",
+    "sentences":["set free", "They opened the cage to free the birds."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "inventor",
+    "cn":["n. 发明家"],
+    "en": "[ɪnˈventə(r)]",
+    "us": "[ɪnˈventər]",
+    "sentences": ["a great inventor", "Edison was a great inventor."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "invent",
+    "cn": ["v. 发明"],
+    "en": "[ɪnˈvent]",
+    "us": "[ɪnˈvent]",
+    "sentences":["invent a machine", "Who invented the telephone?"],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "bulb",
+    "cn": ["n. 灯泡"],
+    "en": "[bʌlb]",
+    "us": "[bʌlb]",
+    "sentences":["change a bulb", "The light bulb is broken."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "light bulb",
+    "cn":["n. 灯泡"],
+    "en": "",
+    "us": "",
+    "sentences":["an electric light bulb", "He invented the first light bulb."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "actor",
+    "cn":["n. （男）演员"],
+    "en": "[ˈæktə(r)]",
+    "us": "[ˈæktər]",
+    "sentences": ["a famous actor", "He wants to be an actor when he grows up."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "movie",
+    "cn": ["n. 电影"],
+    "en": "[ˈmuːvi]",
+    "us": "[ˈmuːvi]",
+    "sentences":["watch a movie", "This movie is very interesting."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "musician",
+    "cn": ["n. 音乐家"],
+    "en": "[mjuˈzɪʃn]",
+    "us": "[mjuˈzɪʃn]",
+    "sentences": ["a gifted musician", "Beethoven was a great musician."],
+    "unit": "Unit 5 Dr Sun Yatsen"
+  },
+  {
+    "word": "scientist",
+    "cn": ["n. 科学家"],
+    "en": "[ˈsaɪəntɪst]",
+    "us": "[ˈsaɪəntɪst]",
+    "sentences":["a famous scientist", "She is a brilliant scientist."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "atomic",
+    "cn":["adj. 原子的"],
+    "en": "[əˈtɒmɪk]",
+    "us": "[əˈtɑːmɪk]",
+    "sentences": ["atomic energy", "The atomic bomb was very destructive."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "province",
+    "cn": ["n. 省"],
+    "en": "[ˈprɒvɪns]",
+    "us": "[ˈprɑːvɪns]",
+    "sentences":["Guangdong province", "He comes from Sichuan Province."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "professor",
+    "cn":["n. 教授"],
+    "en": "[prəˈfesə(r)]",
+    "us": "[prəˈfesər]",
+    "sentences": ["a university professor", "My father is a professor."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "university",
+    "cn": ["n. 大学"],
+    "en": "[ˌjuːnɪˈvɜːsəti]",
+    "us": "[ˌjuːnɪˈvɜːrsəti]",
+    "sentences": ["go to university", "He studies at a famous university."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "physics",
+    "cn": ["n. 物理学"],
+    "en": "[ˈfɪzɪks]",
+    "us": "[ˈfɪzɪks]",
+    "sentences":["study physics", "Physics is my favorite subject."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "several",
+    "cn":["pron. 几个"],
+    "en": "[ˈsevrəl]",
+    "us": "[ˈsevrəl]",
+    "sentences": ["several times", "I have been there several times."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "the United States",
+    "cn": ["美利坚合众国"],
+    "en": "[ðə juˌnaɪtɪd ˈsteɪts]",
+    "us": "[ðə juˌnaɪtɪd ˈsteɪts]",
+    "sentences":["in the United States", "He is going to the United States next year."],
+    "unit": "Unit 6 Early years of Deng Jiaxian"
+  },
+  {
+    "word": "manners",
+    "cn": ["n. 礼貌"],
+    "en": "[ˈmænəz]",
+    "us": "[ˈmænərz]",
+    "sentences": ["good manners", "It is bad manners to talk with your mouth full."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "seat",
+    "cn": ["n. 座位"],
+    "en": "[siːt]",
+    "us": "[siːt]",
+    "sentences": ["take a seat", "Please take a seat."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "impolite",
+    "cn": ["adj. 没有礼貌的"],
+    "en": "[ˌɪmpəˈlaɪt]",
+    "us": "[ˌɪmpəˈlaɪt]",
+    "sentences":["an impolite boy", "It is impolite to point at others."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "in need",
+    "cn": ["需要（的时候）"],
+    "en": "",
+    "us": "",
+    "sentences":["a friend in need", "We should help people in need."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "as",
+    "cn":["conj. 当……的时候"],
+    "en": "[əz]",
+    "us": "[æz]",
+    "sentences": ["as I was walking", "He smiled as he walked in."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "line",
+    "cn": ["n. 队"],
+    "en": "[laɪn]",
+    "us": "[laɪn]",
+    "sentences":["stand in a line", "There was a long line at the bank."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "in line",
+    "cn": ["排队"],
+    "en": "",
+    "us": "",
+    "sentences":["wait in line", "Please wait in line for your turn."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "push",
+    "cn": ["v. 推"],
+    "en": "[pʊʃ]",
+    "us": "[pʊʃ]",
+    "sentences":["push the door", "Don't push others."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "push in",
+    "cn":["插队"],
+    "en": "",
+    "us": "",
+    "sentences":["push in line", "It's not polite to push in."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "full",
+    "cn":["adj. 满的"],
+    "en": "[fʊl]",
+    "us": "[fʊl]",
+    "sentences": ["be full of", "The box is full of apples."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "dish",
+    "cn": ["n. 盘子；碟子"],
+    "en": "[dɪʃ]",
+    "us": "[dɪʃ]",
+    "sentences":["wash the dishes", "He broke a dish just now."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "laugh",
+    "cn":["v. 大笑"],
+    "en": "[lɑːf]",
+    "us": "[læf]",
+    "sentences": ["laugh loudly", "They all laughed at the joke."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "laugh at",
+    "cn": ["嘲笑"],
+    "en": "",
+    "us": "",
+    "sentences": ["laugh at someone", "Don't laugh at him."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "Help yourself to...",
+    "cn": ["随便吃点……"],
+    "en": "",
+    "us": "",
+    "sentences": ["help yourself to some fish", "Help yourself to some fruit, please."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "throw",
+    "cn": ["v. 扔；掉（过去式是threw）"],
+    "en": "[θrəʊ]",
+    "us": "[θroʊ]",
+    "sentences": ["throw away", "Don't throw rubbish everywhere."],
+    "unit": "Unit 7 It's the polite thing to do"
+  },
+  {
+    "word": "magic",
+    "cn":["adj. 魔术的"],
+    "en": "[ˈmædʒɪk]",
+    "us": "[ˈmædʒɪk]",
+    "sentences":["a magic show", "Do you believe in magic?"],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "word",
+    "cn": ["n. 词；话语"],
+    "en": "[wɜːd]",
+    "us": "[wɜːrd]",
+    "sentences":["magic words", "Can I have a word with you?"],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "long ago",
+    "cn": ["很久以前"],
+    "en": "",
+    "us": "",
+    "sentences":["not long ago", "Long ago, there lived a king."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "sign",
+    "cn": ["n. 指示牌"],
+    "en": "[saɪn]",
+    "us": "[saɪn]",
+    "sentences":["a traffic sign", "Please look at the sign on the wall."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "none",
+    "cn":["pron. 没有人"],
+    "en": "[nʌn]",
+    "us": "[nʌn]",
+    "sentences": ["none of us", "None of them knew the answer."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "upset",
+    "cn": ["adj. 失望；难过"],
+    "en": "[ˌʌpˈset]",
+    "us": "[ˌʌpˈset]",
+    "sentences":["feel upset", "She was upset about the bad news."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "bottom",
+    "cn": ["n. 底部"],
+    "en": "[ˈbɒtəm]",
+    "us": "[ˈbɑːtəm]",
+    "sentences":["at the bottom", "The ship sank to the bottom of the sea."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "inside",
+    "cn":["adv., prep & adj. 在里面"],
+    "en": "[ˌɪnˈsaɪd]",
+    "us": "[ˌɪnˈsaɪd]",
+    "sentences":["stay inside", "It's cold outside, let's go inside."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "dark",
+    "cn": ["adj. 黑暗的"],
+    "en": "[dɑːk]",
+    "us": "[dɑːrk]",
+    "sentences": ["get dark", "It was too dark to see anything."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "except",
+    "cn":["conj. 除了"],
+    "en": "[ɪkˈsept]",
+    "us": "[ɪkˈsept]",
+    "sentences": ["everyone except me", "We work every day except Sunday."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "except for",
+    "cn": ["除……以外"],
+    "en": "",
+    "us": "",
+    "sentences": ["except for one thing", "The room was empty except for a chair."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "carry on (with)...",
+    "cn": ["继续"],
+    "en": "",
+    "us": "",
+    "sentences": ["carry on doing", "Please carry on with your work."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "light",
+    "cn":["v. 点燃（过去式是lit）"],
+    "en": "[laɪt]",
+    "us": "[laɪt]",
+    "sentences": ["light a fire", "He lit a candle in the dark."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "light up",
+    "cn": ["点亮"],
+    "en": "",
+    "us": "",
+    "sentences": ["light up the sky", "The fireworks lit up the sky."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "brightly",
+    "cn": ["adv. 明亮地"],
+    "en": "[ˈbraɪtli]",
+    "us": "[ˈbraɪtli]",
+    "sentences":["shine brightly", "The stars are shining brightly tonight."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "lead",
+    "cn":["v. 指引；引路（过去式是led）"],
+    "en": "[liːd]",
+    "us": "[liːd]",
+    "sentences": ["lead the way", "She led the blind man across the street."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "brought",
+    "cn":["v. 带；携带（bring的过去式）"],
+    "en": "[brɔːt]",
+    "us": "[brɔːt]",
+    "sentences":["brought a gift", "He brought a book for me yesterday."],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "ever",
+    "cn": ["adv. 永远；曾经"],
+    "en": "[ˈevə(r)]",
+    "us": "[ˈevər]",
+    "sentences": ["happily ever after", "Have you ever been to Beijing?"],
+    "unit": "Unit 8 The magic words"
+  },
+  {
+    "word": "abroad",
+    "cn": ["adv. 在国外"],
+    "en": "[əˈbrɔːd]",
+    "us": "[əˈbrɔːd]",
+    "sentences": ["go abroad", "He studies abroad."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "South Africa",
+    "cn": ["n. 南非"],
+    "en": "[ˌsaʊθ ˈæfrɪkə]",
+    "us": "[ˌsaʊθ ˈæfrɪkə]",
+    "sentences": ["in South Africa", "They are planning a trip to South Africa."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "nature",
+    "cn": ["n. 大自然"],
+    "en": "[ˈneɪtʃə(r)]",
+    "us": "[ˈneɪtʃər]",
+    "sentences":["love nature", "We should protect nature."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "choose",
+    "cn":["v. 选择（过去式是chose）"],
+    "en": "[tʃuːz]",
+    "us": "[tʃuːz]",
+    "sentences": ["choose a book", "You can choose any color you like."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Sydney",
+    "cn": ["n. 悉尼"],
+    "en": "[ˈsɪdni]",
+    "us": "[ˈsɪdni]",
+    "sentences":["live in Sydney", "Sydney is a beautiful city in Australia."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "opera",
+    "cn": ["n. 歌剧"],
+    "en": "[ˈɒprə]",
+    "us": "[ˈɑːprə]",
+    "sentences": ["Beijing opera", "She likes listening to opera."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Sydney Opera House",
+    "cn":["悉尼歌剧院"],
+    "en": "",
+    "us": "",
+    "sentences":["visit the Sydney Opera House", "The Sydney Opera House is very famous."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "harbour",
+    "cn":["n. 海港"],
+    "en": "[ˈhɑːbə(r)]",
+    "us": "[ˈhɑːrbər]",
+    "sentences": ["a beautiful harbour", "The ships are safe in the harbour."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "bridge",
+    "cn": ["n. 桥"],
+    "en": "[brɪdʒ]",
+    "us": "[brɪdʒ]",
+    "sentences":["build a bridge", "They walked across the bridge."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Sydney Harbour Bridge",
+    "cn":["悉尼海港大桥"],
+    "en": "",
+    "us": "",
+    "sentences":["cross the Sydney Harbour Bridge", "We took a photo at the Sydney Harbour Bridge."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Japan",
+    "cn":["n. 日本"],
+    "en": "[dʒəˈpæn]",
+    "us": "[dʒəˈpæn]",
+    "sentences": ["go to Japan", "Tokyo is the capital of Japan."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Tokyo",
+    "cn": ["n. 东京"],
+    "en": "[ˈtəʊkiəʊ]",
+    "us": "[ˈtoʊkioʊ]",
+    "sentences":["in Tokyo", "Tokyo is a very busy city."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "France",
+    "cn": ["n. 法国"],
+    "en": "[frɑːns]",
+    "us": "[fræns]",
+    "sentences":["travel to France", "Paris is the capital of France."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Paris",
+    "cn":["n. 巴黎"],
+    "en": "[ˈpærɪs]",
+    "us": "[ˈpærɪs]",
+    "sentences": ["live in Paris", "Paris is famous for the Eiffel Tower."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "capital",
+    "cn": ["n. 首都"],
+    "en": "[ˈkæpɪtl]",
+    "us": "[ˈkæpɪtl]",
+    "sentences":["the capital of", "Beijing is the capital of China."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Washington D. C.",
+    "cn":["华盛顿哥伦比亚区"],
+    "en": "[ˈwɒʃɪŋtən diː siː]",
+    "us": "[ˈwɑːʃɪŋtən diː siː]",
+    "sentences":["visit Washington D. C.", "Washington D. C. is the capital of the US."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "White House",
+    "cn": ["（美国）白宫"],
+    "en": "[ˌwaɪt ˈhaʊs]",
+    "us": "[ˌwaɪt ˈhaʊs]",
+    "sentences":["see the White House", "The President lives in the White House."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "tower",
+    "cn":["n. 塔"],
+    "en": "[ˈtaʊə(r)]",
+    "us": "[ˈtaʊər]",
+    "sentences":["a tall tower", "They climbed to the top of the tower."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Tower Bridge",
+    "cn": ["n. 塔桥"],
+    "en": "[ˌtaʊə ˈbrɪdʒ]",
+    "us": "[ˌtaʊər ˈbrɪdʒ]",
+    "sentences": ["London's Tower Bridge", "Tower Bridge is very famous in London."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Big Ben",
+    "cn": ["大本钟"],
+    "en": "[ˌbɪɡ ˈben]",
+    "us": "[ˌbɪɡ ˈben]",
+    "sentences": ["hear Big Ben", "Big Ben is a famous clock in London."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "New Zealand",
+    "cn":["n. 新西兰"],
+    "en": "[ˌnjuː ˈziːlənd]",
+    "us": "[ˌnuː ˈziːlənd]",
+    "sentences":["from New Zealand", "New Zealand is a very beautiful country."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Wellington",
+    "cn":["n. 惠灵顿"],
+    "en": "[ˈwelɪŋtən]",
+    "us": "[ˈwelɪŋtən]",
+    "sentences": ["in Wellington", "Wellington is the capital of New Zealand."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "kiwi",
+    "cn": ["n. 几维鸟"],
+    "en": "[ˈkiːwiː]",
+    "us": "[ˈkiːwiː]",
+    "sentences":["a cute kiwi", "The kiwi cannot fly."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Canada",
+    "cn": ["n. 加拿大"],
+    "en": "[ˈkænədə]",
+    "us": "[ˈkænədə]",
+    "sentences": ["travel to Canada", "Canada is a very large country."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "Ottawa",
+    "cn": ["n. 渥太华"],
+    "en": "[ˈɒtəwə]",
+    "us": "[ˈɑːtəwə]",
+    "sentences":["the city of Ottawa", "Ottawa is the capital of Canada."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "maple",
+    "cn": ["n. 枫树"],
+    "en": "[ˈmeɪpl]",
+    "us": "[ˈmeɪpl]",
+    "sentences": ["a maple leaf", "The maple leaves turn red in autumn."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "flag",
+    "cn": ["n. 旗"],
+    "en": "[flæɡ]",
+    "us": "[flæɡ]",
+    "sentences": ["the national flag", "There is a red leaf on Canada's flag."],
+    "unit": "Unit 9 Where will you go?"
+  },
+  {
+    "word": "natural",
+    "cn": ["adj. 自然的"],
+    "en": "[ˈnætʃrəl]",
+    "us": "[ˈnætʃrəl]",
+    "sentences":["natural beauty", "This is a natural wonder."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "beauty",
+    "cn":["n. 美，美丽"],
+    "en": "[ˈbjuːti]",
+    "us": "[ˈbjuːti]",
+    "sentences": ["the beauty of nature", "She is a girl of great beauty."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "waterfall",
+    "cn": ["n. 瀑布"],
+    "en": "[ˈwɔːtəfɔːl]",
+    "us": "[ˈwɔːtərfɔːl]",
+    "sentences": ["a high waterfall", "The waterfall looks very beautiful."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "Chinatown",
+    "cn": ["n. 唐人街"],
+    "en": "[ˈtʃaɪnətaʊn]",
+    "us": "[ˈtʃaɪnətaʊn]",
+    "sentences":["eat in Chinatown", "We had lunch in Chinatown."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "Toronto",
+    "cn": ["n. 多伦多"],
+    "en": "[təˈrɒntəʊ]",
+    "us": "[təˈrɑːntoʊ]",
+    "sentences": ["live in Toronto", "Toronto is the largest city in Canada."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "passport",
+    "cn": ["n. 护照"],
+    "en": "[ˈpɑːspɔːt]",
+    "us": "[ˈpæspɔːrt]",
+    "sentences": ["show your passport", "Don't forget to take your passport."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "book",
+    "cn": ["v. 订购"],
+    "en": "[bʊk]",
+    "us": "[bʊk]",
+    "sentences":["book a ticket", "I'd like to book a room for tonight."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "ticket",
+    "cn":["n. 票"],
+    "en": "[ˈtɪkɪt]",
+    "us": "[ˈtɪkɪt]",
+    "sentences": ["a plane ticket", "I need to buy a ticket to Beijing."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "airport",
+    "cn": ["n. 飞机场"],
+    "en": "[ˈeəpɔːt]",
+    "us": "[ˈerpɔːrt]",
+    "sentences": ["at the airport", "We will meet you at the airport."],
+    "unit": "Unit 10 I can't wait to see you"
+  },
+  {
+    "word": "land",
+    "cn": ["v. 着陆; n. 陆地"],
+    "en": "[lænd]",
+    "us": "[lænd]",
+    "sentences":["safe on land", "The plane will land in five minutes."],
+    "unit": "Unit 10 I can't wait to see you"
+  }
+]
